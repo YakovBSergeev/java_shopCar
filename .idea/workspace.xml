@@ -4,30 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af539eb-07a5-4c12-b177-57b11f31cae3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/StoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/StoreServiceImpl.java" afterDir="false" />
+    <list default="true" id="0af539eb-07a5-4c12-b177-57b11f31cae3" name="Changes" comment="shopCar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +48,11 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sergeev_yb/maven/java-foundations-online/java_foundation_online&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sergeev_yb/maven/java-foundations-online&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,7 +66,7 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyApplication">
+  <component name="RunManager" selected="Maven.java_shopCar [install]">
     <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyApplication" />
       <module name="java_shopCar" />
@@ -112,45 +105,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarServiceImplTest.takeCarByMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_shopCar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.CarServiceImplTest" />
-      <option name="METHOD_NAME" value="takeCarByMark" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="java_shopCar [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="CarServiceImplTest.testCarMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_shopCar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.CarServiceImplTest" />
-      <option name="METHOD_NAME" value="testCarMark" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="java_shopCar [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.java_shopCar [install]" />
+        <item itemvalue="Maven.java_shopCar [clean]" />
         <item itemvalue="Application.MyApplication" />
         <item itemvalue="JUnit.CarServiceImplTest.hasCar" />
         <item itemvalue="JUnit.CarServiceImplTest" />
-        <item itemvalue="JUnit.CarServiceImplTest.takeCarByMark" />
-        <item itemvalue="JUnit.CarServiceImplTest.testCarMark" />
       </list>
     </recent_temporary>
   </component>
